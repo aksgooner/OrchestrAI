@@ -6,7 +6,7 @@ import openai
 # Set up OpenAI API key
 # Retrieve the OpenAI API key from an environment variable
 # openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = st.secrets("OPENAI_API_KEY")
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 #streamlit App
 st.title("OrchestrAI - Research Paper Summarizer")
 
